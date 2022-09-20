@@ -1,0 +1,112 @@
+@import "https://fonts.googleapis.com/css?family=Open Sans:300,400,500,600,700";
+body{
+    background:#EDEFEE;
+    font-family:'Open Sans', serif;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+    h1{
+        font-size: 2.5rem;
+        text-shadow: 2px 1px 3px black;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        text-shadow: 2px 1px 3px black;
+    }
+
+    header > img {
+        display:block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 200px;
+        height: 100px;
+    }
+
+    nav ul{
+        list-style: none;
+        text-align: center;
+        background-color: salmon;
+        padding: 15px 0px;
+        border-radius: 10px;
+    }
+
+    nav li{
+        display:inline-block;
+        transition: 1s;
+    }
+
+    nav li a{
+        display:inline-block;
+        font-size: 1.3rem;
+        margin:0 3px;
+    }
+
+    nav li:hover{
+        color: lightpink;
+        cursor: pointer;
+    }
+
+    #top-section{
+        background-image: url(jewelry.jpg);
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        background-size: cover;
+        padding:5px 20px;
+    }
+
+    section{
+        margin: 40px 0;
+        display:flex;
+    }
+
+    article{
+        flex:1;
+    }
+
+    section article img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .bottom-section{
+        background-color: pink;
+        margin: 0 20px;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 2px 1px 4px grey;
+    }
+
+    footer{
+        display:flex;
+    }
+
+    footer div{
+        flex:1;
+    }
+
+    footer div P{
+        float: right;
+    }
+
+    footer img{
+        width: 200px;
+    }
+
+    @media(max-width: 795.98px){
+        section{
+            display:block;
+        }
+
+        footer{
+            display:block;
+        }
+
+        .bottom-section{
+            margin-top: 10px;   
+        }
+    
+    }
